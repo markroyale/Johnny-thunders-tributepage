@@ -1,0 +1,92 @@
+* {
+    font-family: 'Courier Prime', monospace;
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    
+}
+.header {
+  background-color: lightgray;
+  text-align: center;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+#main{
+  padding-left: 15%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  .tribute-info {
+  
+      }
+.headline {
+  padding-top: 45px;
+  text-align: center;
+  background-color: lightgrey;
+  padding-top: 21px;
+  padding-bottom: 21px;
+
+}
+.content {
+  margin: 2% 15% 2% 15%;
+  line-height: 45px;
+  
+}
+.footer {
+  text-align: center;
+  background-color: lightgrey;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
